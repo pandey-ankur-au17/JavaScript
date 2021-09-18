@@ -1,0 +1,52 @@
+@import url("HeaderTemplate.css");
+
+body{
+	overflow-x: hidden;
+}
+
+#quiz{
+	position: absolute;
+	margin-top: 9%;
+	width: 85%;
+	height: 70%;
+	background-color: #383838;
+	margin-left: 50%;
+	transform: translate(-50%);
+	border: 1px solid black;
+	box-shadow: 2px 2px 4px black;
+}
+
+#quiz h1{
+	font-family: Comic Sans, Comic Sans MS, Cursive;
+	font-size: 2.5em;
+	color: #14b1d2;
+	text-align: center;
+}
+
+/*Next button*/
+#next{
+	font-family: Helvetica;
+	width: 200px;
+	height: 40px;
+	border: 1px solid black;
+	background-color: #14b1d2;
+	position: absolute;
+	margin-top: 25%;
+	transform: translate(380%);
+}
+
+#next:hover{
+	background-color: #005f5f;
+	cursor: pointer;
+}
+
+ul{
+	margin-top: 7%;
+}
+li{
+	display: block;
+	color: #FFFFFF;
+	font-size: 30px;
+	margin-top: 1%;
+	transform: translate(50%);
+}
