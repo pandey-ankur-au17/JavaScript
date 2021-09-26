@@ -1,0 +1,35 @@
+.container{
+    background-color: aliceblue;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.display{
+    text-align: center;
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.pickedColor{
+    width: 300px;
+    height: 15px;
+}
+
+.pad{
+    padding-bottom: 10px;
+}
+
+.btn{
+    background-color: rgb(78, 78, 255);
+    border-radius: 5px;
+    color: white;
+}
