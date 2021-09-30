@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form ">
+            <form  action="/"  method="POST">
+                <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Full Name</label>
+                    <input type="name" name="Name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                  </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" name= "Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" name="Password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPhone1" class="form-label">Phone Number</label>
+                    <input type="number" name= "Mobile_no" class="form-control" id="exampleInputPhone1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Favorite Color</label>
+                    <input type="name" name="Favorite_Color" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Favorite Food</label>
+                    <input type="name" name="Favorite_Food" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                  </div>
+                  <div class="h3"> Give Your Valuable Review : </div>
+                <div>
+                    <textarea name="User_review" id="" cols="30" rows="3"></textarea>
+                </div>
+                <div>
+                    <button class="btn-warning m-2" type="submit">Submit Survey</button>
+                </div>
+</body>                                                                                                                                                                                                                                                                                                                                                       
+</html>
