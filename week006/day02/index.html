@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Evaluation Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="h1">Interview Evaluation Form</h1>
+            <div class="form">
+                <div class="p"><p>This form should be filled by HR personnel in charge of the Interview session</p></div>
+                <form action="/form" method="POST">
+                    <div class="mb-3 ">
+                        <label for="exampleInputName1" class="form-label">Candidate's name</label>
+                        <input class="form-control" id="exampleInputName1" name="CondidateName">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">The position this condidate is coming in for</label>
+                        <input class="form-control" id="exampleInputName1" name="Position">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Department</label>
+                        <input  class="form-control" id="exampleInputName1" name="Department">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label">Hiring Manager</label>
+                        <input class="form-control" id="exampleInputName1" name="HiringManager">
+                      </div>
+    
+                      <button type="submit" class="btn btn-primary">Submit</button>
+    
+    
+    
+    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
